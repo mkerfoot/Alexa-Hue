@@ -1,13 +1,13 @@
 ControlLights turn the {Lights} {State}
 ControlLights turn {State} the {Lights}
 ControlLights set {Scene} scene
-ControlLights set {Scene} seen
-ControlLights set seen {Scene}
+ControlLights set {Scene} scene
 ControlLights set scene {Scene}
-ControlLights set the seen {Scene}
+ControlLights set scene {Scene}
+ControlLights set the scene {Scene}
 ControlLights set the scene {Scene}
 
-ControlLights for {Scene} seen
+ControlLights for {Scene} scene
 ControlLights for the scene {Scene}
 ControlLights for {Color} {Lights}
 ControlLights for a {Color} {Lights}
@@ -24,7 +24,7 @@ ControlLights save scene as {relaxing|SaveScene} on {Lights}
 ControlLights save scene as {night time reading|SaveScene} on {Lights}
 
 ControlLights schedule {Scene} scene at {AbsoluteTime}
-ControlLights schedule {Scene} seen at {AbsoluteTime}
+ControlLights schedule {Scene} scene at {AbsoluteTime}
 
 ControlLights turn the {Lights} {Color}
 ControlLights turn the {Lights} to {Color}
